@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memory game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
@@ -12,34 +13,40 @@
             <h1>Memory Game</h1>
             <table>
                 <tr>
-                    <td id="0"><button>test</button></td>
-                    <td id="1"><button>test</button></td>
-                    <td id="2"><button>test</button></td>
-                    <td id="3"><button>test</button></td>
+                    <td id="0" onclick="show(0)"><button></button></td>
+                    <td id="1" onclick="show(1)"><button></button></td>
+                    <td id="2" onclick="show(2)"><button></button></td>
+                    <td id="3" onclick="show(3)"><button></button></td>
                 </tr>
                 <tr>
-                    <td id="4"><button>test</button></td>
-                    <td id="5"><button>test</button></td>
-                    <td id="6"><button>test</button></td>
-                    <td id="7"><button>test</button></td>
+                    <td id="4" onclick="show(4)"><button></button></td>
+                    <td id="5" onclick="show(5)"><button></button></td>
+                    <td id="6" onclick="show(6)"><button></button></td>
+                    <td id="7" onclick="show(7)"><button></button></td>
                 </tr>
                 <tr>
-                    <td id="8"><button>test</button></td>
-                    <td id="9"><button>test</button></td>
-                    <td id="10"><button>test</button></td>
-                    <td id="11"><button>test</button></td>
+                    <td id="8" onclick="show(8)"><button></button></td>
+                    <td id="9" onclick="show(9)"><button></button></td>
+                    <td id="10" onclick="show(10)"><button></button></td>
+                    <td id="11" onclick="show(11)"><button></button></td>
                 </tr>
                 <tr>
-                    <td id="12"><button>test</button></td>
-                    <td id="13"><button>test</button></td>
-                    <td id="14"><button>test</button></td>
-                    <td id="15"><button>test</button></td>
+                    <td id="12" onclick="show(12)"><button></button></td>
+                    <td id="13" onclick="show(13)"><button></button></td>
+                    <td id="14" onclick="show(14)"><button></button></td>
+                    <td id="15" onclick="show(15)"><button></button></td>
                 </tr>
             </table>
         </section>
         <section class="section2">
-
+            <h2 id="hits" class="stadistic">Hits: 0</h2>
+            <h2 id="time-left" class="stadistic">Time: 30 seconds</h2>
+            <h2 id="movements" class="stadistic">Movements: 0</h2>
         </section>
+        <footer>
+            <p>Programmed by: <a href="https://github.com/allencarlosdev" target="_blank" rel="noopener noreferrer">Carlos Allen 😎👍</a></p>
+        </footer>
     </main>
+    <script src="main.js"></script>
 </body>
 </html>
