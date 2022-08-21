@@ -6,47 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memory game</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resetAllen.css">
 </head>
 <body>
-    <main>
-        <section class="section1">
-            <h1>Memory Game</h1>
-            <table>
-                <tr>
-                    <td id="0" onclick="show(0)"><button></button></td>
-                    <td id="1" onclick="show(1)"><button></button></td>
-                    <td id="2" onclick="show(2)"><button></button></td>
-                    <td id="3" onclick="show(3)"><button></button></td>
-                </tr>
-                <tr>
-                    <td id="4" onclick="show(4)"><button></button></td>
-                    <td id="5" onclick="show(5)"><button></button></td>
-                    <td id="6" onclick="show(6)"><button></button></td>
-                    <td id="7" onclick="show(7)"><button></button></td>
-                </tr>
-                <tr>
-                    <td id="8" onclick="show(8)"><button></button></td>
-                    <td id="9" onclick="show(9)"><button></button></td>
-                    <td id="10" onclick="show(10)"><button></button></td>
-                    <td id="11" onclick="show(11)"><button></button></td>
-                </tr>
-                <tr>
-                    <td id="12" onclick="show(12)"><button></button></td>
-                    <td id="13" onclick="show(13)"><button></button></td>
-                    <td id="14" onclick="show(14)"><button></button></td>
-                    <td id="15" onclick="show(15)"><button></button></td>
-                </tr>
-            </table>
-        </section>
-        <section class="section2">
-            <h2 id="hits" class="stadistic">Hits: 0</h2>
-            <h2 id="time-left" class="stadistic">Time: 30 seconds</h2>
-            <h2 id="movements" class="stadistic">Movements: 0</h2>
-        </section>
-        <footer>
-            <p>Programmed by: <a href="https://github.com/allencarlosdev" target="_blank" rel="noopener noreferrer">Carlos Allen 😎👍</a></p>
+    <div class="container">
+        <header class="header">
+            <ul class="header__social">
+                <li class="header__link"><a rel="noopener noreferrer" href="https://github.com/allencarlosdev" target="_blank" title="link of github"><i class="fa fa-github"></i></a></li>
+                <li class="header__link"><a rel="noopener noreferrer" href="https://www.linkedin.com/in/allencarlosdev/" target="_blank" title="link of linkedin"><i class="fa fa-linkedin"></i></a></li>
+                <li class="header__link"><a rel="noopener noreferrer" href="https://stackoverflow.com/users/16209550/carlos-allen" target="_blank" title="link of  stackoverflow"><i class="fa fa-stack-overflow"></i></a></li>
+                <li class="header__link"><a rel="noopener noreferrer" href="https://www.sololearn.com/profile/20725585" target="_blank" title="link of sololearn"><i class="fab fa-stripe-s"></i></a></li>
+            </ul>
+        </header>
+        <main class="main">
+            <div class="sections-container">
+                <section class="section1">
+                    <h1 class="section1__h1">Memory Game</h1>
+                    <table class="section1__table">
+                        <tr class="section1__row">
+                            <td id="0" onclick="show(0)"><button class="section1__btn">1</button></td>
+                            <td id="1" onclick="show(1)"><button class="section1__btn">1</button></td>
+                            <td id="2" onclick="show(2)"><button class="section1__btn">1</button></td>
+                            <td id="3" onclick="show(3)"><button class="section1__btn">1</button></td>
+                        </tr>
+                        <tr class="section1__row">
+                            <td id="4" onclick="show(4)"><button class="section1__btn">1</button></td>
+                            <td id="5" onclick="show(5)"><button class="section1__btn">1</button></td>
+                            <td id="6" onclick="show(6)"><button class="section1__btn">1</button></td>
+                            <td id="7" onclick="show(7)"><button class="section1__btn">1</button></td>
+                        </tr>
+                        <tr class="section1__row">
+                            <td id="8" onclick="show(8)"><button class="section1__btn">1</button></td>
+                            <td id="9" onclick="show(9)"><button class="section1__btn">1</button></td>
+                            <td id="10" onclick="show(10)"><button class="section1__btn">1</button></td>
+                            <td id="11" onclick="show(11)"><button class="section1__btn">1</button></td>
+                        </tr>
+                        <tr class="section1__row">
+                            <td id="12" onclick="show(12)"><button class="section1__btn">1</button></td>
+                            <td id="13" onclick="show(13)"><button class="section1__btn">1</button></td>
+                            <td id="14" onclick="show(14)"><button class="section1__btn">1</button></td>
+                            <td id="15" onclick="show(15)"><button class="section1__btn">1</button></td>
+                        </tr>
+                    </table>
+                </section>
+                <section class="section2">
+                    <h2 id="hits" class="section2__stadistic">Hits: 0</h2>
+                    <h2 id="time-left" class="section2__stadistic">Time: 30 seconds</h2>
+                    <h2 id="movements" class="section2__stadistic">Movements: 0</h2>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>Programmed by: <a class="footer__a" href="https://github.com/allencarlosdev" target="_blank" rel="noopener noreferrer">Carlos Allen 😎👍</a></p>
         </footer>
-    </main>
-    <script src="main.js"></script>
+    </div>
+<script src="main.js"></script>
+<script src="https://kit.fontawesome.com/0b01b67c65.js" crossorigin="anonymous"></script>
 </body>
 </html>
