@@ -1,0 +1,246 @@
+/*                                     Author: Ing Carlos Allen                                   */
+/*                                   https://github.com/allencarlosdev                            */
+/*                                 contact : allencarlosDev@gmail.com                           */
+
+
+@charset "UTF-8";
+
+/* typography */
+:root {
+    --background-body: #242424;
+    --background-footer: #191919;
+    --color-text: #fbd758;
+    --first-type: sans-serif, Helvetica, Arial;
+    --color-section: rgba(255,255,255, 0.2);
+    --color-btn:#605b49;
+    --color-btn-hover:#7d765e;
+    --border-container: white;
+    /* --second-type: Verdana; */
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+button,
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+/* we avoid problems with the images */
+img,
+picture,
+video,
+iframe,
+figure {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    /* optional */
+    -o-object-fit: cover;
+    object-fit: cover;
+    /* optional */
+    -o-object-position: center center;
+    object-position: center center;
+}
+
+/* We reset the links to function as boxes... */
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+
+/* ... except those found in paragraphs */
+p a {
+    display: inline;
+}
+
+/* We remove the points from the <li> */
+li {
+    list-style-type: none;
+}
+
+/* We configure soft anchors */
+html {
+    scroll-behavior: smooth;
+}
+
+/* We deactivate default styles of the main text labels */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+    font-size: 1em;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* We avoid problems with quotes pseudo-elements */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+/* We configure the text that we select */
+::-moz-selection {
+    background-color: var(--color-text);
+    color: var(--white);
+}
+::selection {
+    background-color: var(--color-text);
+    color: var(--white);
+}
+
+/* We level problems of fonts and placement of forms */
+form,
+input,
+textarea,
+select,
+button,
+label {
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    background-color: transparent;
+    display: block;
+    /* opcional */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Reset the tables */
+table,
+tr,
+td {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* We avoid problems with SVG */
+svg {
+    width: 100%;
+    display: block;
+    fill: currentColor;
+}
+
+/* We configure the typography for the entire web */
+body {
+    background-color: var(--background-body);
+    min-height: 100vh;
+    font-size: 100%;
+    font-family: var(--first-type);
+    color: var(--color-text);
+    /* optional */
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    /* optional */
+    font-smooth: always;
+    /* optional */
+    -webkit-font-smoothing: antialiased;
+    /* optional */
+    -moz-osx-font-smoothing: grayscale;
+}
