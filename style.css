@@ -71,6 +71,11 @@
     background-color: var(--color-btn-hover);
 }
 
+.section1__btn:disabled{
+    cursor: default;
+    background-color: var(--color-btn-disabled);
+}
+
 /* Section 2*/
 .section2{
     background-color: var(--color-section);

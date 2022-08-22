@@ -14,6 +14,7 @@
     --color-section: rgba(255,255,255, 0.2);
     --color-btn:#605b49;
     --color-btn-hover:#7d765e;
+    --color-btn-disabled: red;
     --border-container: white;
     /* --second-type: Verdana; */
 }
