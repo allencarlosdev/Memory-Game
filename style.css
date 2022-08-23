@@ -148,14 +148,23 @@
 }
 
 @media screen and (max-width: 550px){
+    .header{
+        height: 8%;
+    }
     .header__link{
         font-size: 2rem;
         margin: 0 1rem;
     }
+    .main{
+        height: 84%;
+    }
+    .footer{
+        height: 8%;
+    }
 
     .section1__btn {
-        height: 3.5rem;
-        width: 3.5rem;
+        height: 3rem;
+        width: 3rem;
     }
 
     .section2{
