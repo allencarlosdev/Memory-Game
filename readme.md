@@ -1,6 +1,4 @@
-# Allenpage 5 - Memory Game
-
-_**Number of pages for the portfolio :** 5/N_
+# Memory Game
 
 **Web Theme :**
 
